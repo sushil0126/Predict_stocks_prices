@@ -152,17 +152,21 @@ Predictions are inverse-transformed back to original price scale using the fitte
 - Model closely tracks real closing prices across the test window
 - Predictions smoothly follow upward and downward price trends
 
-![Actual vs Predicted](images/actual Vs Predicted.png)
+![Actual vs Predicted](images/actual_Vs_Predicted.png)
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-Tesla-Stock-LSTM
+Predict_stocks_prices
 │
-├── Tesla.csv
-├── tesla_lstm.ipynb
+├── images/
+│   ├── actual_vs_predicted.png
+│   └── closing_price.png
+│
+├── LSTM_predict_stock_prices.ipynb
+├── Tesla.csv - Tesla.csv.csv
 └── README.md
 ```
 
