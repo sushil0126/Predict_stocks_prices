@@ -177,7 +177,7 @@ Predict_stocks_prices
 ### Clone Repository
 
 ```bash
-git clone https://github.com/sushil0126/Tesla-Stock-LSTM.git
+git clone https://github.com/sushil0126/Predict_stocks_prices.git 
 ```
 
 ### Install Dependencies
