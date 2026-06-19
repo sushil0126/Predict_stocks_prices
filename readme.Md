@@ -189,7 +189,7 @@ pip install torch numpy pandas matplotlib scikit-learn
 ### Run Notebook
 
 ```bash
-jupyter notebook tesla_lstm.ipynb
+jupyter notebook LSTM_predict_stock_prices.ipynb
 ```
 
 ---
