@@ -76,13 +76,13 @@ The goal is to predict Tesla stock closing prices using an LSTM model built from
 
 ```
 LSTM(
-  (lstm): LSTM(input_size=4, hidden_size=128, batch_first=True)
+  (lstm): LSTM(input_size=4, hidden_size=100, batch_first=True)
   (linear): Linear(in_features=128, out_features=1)
 )
 ```
 
 - **Input:** 4 features (Open, High, Low, Volume)
-- **LSTM Hidden Size:** 128
+- **LSTM Hidden Size:** 100
 - **Output:** 1 (predicted closing price)
 - **Hidden & Cell states** initialized to zeros each forward pass
 
