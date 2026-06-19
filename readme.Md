@@ -135,8 +135,8 @@ Predictions are inverse-transformed back to original price scale using the fitte
 
 | Metric    | Train Set | Test Set |
 |-----------|-----------|----------|
-| **RMSE**  | 4.60      | 5.64     |
-| **MAE**   | 2.79      | 4.26     |
+| **RMSE**  | 4.71      | 5.99     |
+| **MAE**   | 3.03      | 4.58     |
 
 - Low train/test gap indicates **good generalization**
 - Model captures overall trend and price movement patterns effectively
